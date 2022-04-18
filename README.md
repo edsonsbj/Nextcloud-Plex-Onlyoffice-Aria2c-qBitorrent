@@ -1,4 +1,4 @@
-# postinstall-server-multimidia+nextcloud
+# Servidor Plex + Nextcloud + Onlyoffice + Aria2c + qbitorrent
 
 Script de post install
 
@@ -28,18 +28,31 @@ Este Script executa as seguintes funções
 
 12. Atualiza todos os pacotes apt e flatpak
 
-## Execução em ambientes graficos é instalados os seguintes programas 
+## Execução em ambientes graficos é instalados o seguintes programas 
 
-gparted 	# Manipulador de Partições 
-synaptic	# Gerenciador de Pacotes
-Google Chrome	# Navegador 
+# Manipulador de Partições
+gparted
+
+# Gerenciador de Pacotes
+synaptic
+
+#Navegador	
+Google Chrome
 
 ## Programa para realizar Backups
 
-borgbackup	# Criador de Backups criptografados 
+borgbackup	
+ 
 
 ## Como usar
 
 Baixe o script, verifique as persmissões de uso e execute:<br>
 ``./pos-install.sh``
 
+## COnfigurações de Exemplo 
+
+Optiplex 3050 mini 
+Memoria RAM >> 4GB
+Processador >> i3
+Interface Grafica >> Sim 
+Distro Utilizada >> Zorin OS 16
