@@ -1,2 +1,45 @@
-# postinstall-servidor-multimidia
-Script de post install servidor multimídia emby + nextcloud ou plex + nextcloud
+# postinstall-server-multimidia+nextcloud
+
+Script de post install
+
+Este Script executa as seguintes funções
+
+1. Instala o Nextcloud via snap 
+
+2. Altera as portas padão 
+
+3. Habilita o suporte a midia removivel
+
+4. Instala o Onlyoffice via snap
+
+5. Altera as portas padão
+
+6. Habilita o suporte a midia removivel
+
+7. Instala o Aria2c que possibilita efetuar downloads direto do servidor nextcloud  
+
+8. Intala o qbittorrent Baixe arquivos torrent em um hd configurado juntamente com o servidor nextcloud + plex 
+
+9. instala o Plex Media Server via snap 
+
+10. instala o Emby-Server
+
+11. Adiciona o usurio emby ao grupo root para ter acesso a pasta de dados do nextcloud 
+
+12. Atualiza todos os pacotes apt e flatpak
+
+## Execução em ambientes graficos é instalados os seguintes programas 
+
+gparted 	# Manipulador de Partições 
+synaptic	# Gerenciador de Pacotes
+Google Chrome	# Navegador 
+
+## Programa para realizar Backups
+
+borgbackup	# Criador de Backups criptografados 
+
+## Como usar
+
+Baixe o script, verifique as persmissões de uso e execute:<br>
+``./pos-install.sh``
+
