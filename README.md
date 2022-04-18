@@ -49,8 +49,7 @@ borgbackup
 Baixe o script, verifique as persmissões de uso e execute:<br>
 ``./pos-install.sh``
 
-## COnfigurações de Exemplo 
-
+##  Config de Exemplo
 Optiplex 3050 mini 
 Memoria RAM >> 4GB
 Processador >> i3
